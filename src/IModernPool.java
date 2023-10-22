@@ -1,4 +1,4 @@
-public interface ModernPool {
+public interface IModernPool {
     void addTemperatureControl();
 
     void autoCleaning();

@@ -1,7 +1,7 @@
-public class PoolAdapter implements SwimmingPool {
-    private ModernPool modernPool;
+public class PoolAdapter implements ISwimmingPool {
+    private IModernPool modernPool;
 
-    public PoolAdapter(ModernPool modernPool) {
+    public PoolAdapter(IModernPool modernPool) {
         this.modernPool = modernPool;
     }
 

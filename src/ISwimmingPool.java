@@ -1,4 +1,4 @@
-public interface SwimmingPool {
+public interface ISwimmingPool {
     void fillWater();
 
     void drainWater();

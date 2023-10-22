@@ -1,4 +1,4 @@
-public class SwimmingPoolImpl implements SwimmingPool {
+public class SwimmingPoolImpl implements ISwimmingPool {
 
     @Override
     public void fillWater() {
